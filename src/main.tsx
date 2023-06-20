@@ -7,6 +7,7 @@ import { Example01 } from "./pages/example-01.tsx";
 import { Example02 } from "./pages/example-02.tsx";
 import { Example03 } from "./pages/example-03.tsx";
 import { Example04 } from "./pages/example-04.tsx";
+import { Example05 } from "./pages/example-05.tsx";
 
 const router = createHashRouter([
   {
@@ -18,6 +19,7 @@ const router = createHashRouter([
       { path: "/example-02", element: <Example02 /> },
       { path: "/example-03", element: <Example03 /> },
       { path: "/example-04", element: <Example04 /> },
+      { path: "/example-05", element: <Example05 /> },
     ],
   },
 ]);
