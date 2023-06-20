@@ -53,6 +53,11 @@ export function Layout() {
               <ListItemContent>03. IntersectionObserver</ListItemContent>
             </ListItemButton>
           </ListItem>
+          <ListItem>
+            <ListItemButton component={Link} to="/example-04">
+              <ListItemContent>04. 03 + pager</ListItemContent>
+            </ListItemButton>
+          </ListItem>
         </List>
       </Box>
 

@@ -6,6 +6,7 @@ import { CssBaseline, CssVarsProvider } from "@mui/joy";
 import { Example01 } from "./pages/example-01.tsx";
 import { Example02 } from "./pages/example-02.tsx";
 import { Example03 } from "./pages/example-03.tsx";
+import { Example04 } from "./pages/example-04.tsx";
 
 const router = createHashRouter([
   {
@@ -16,6 +17,7 @@ const router = createHashRouter([
       { path: "/example-01", element: <Example01 /> },
       { path: "/example-02", element: <Example02 /> },
       { path: "/example-03", element: <Example03 /> },
+      { path: "/example-04", element: <Example04 /> },
     ],
   },
 ]);

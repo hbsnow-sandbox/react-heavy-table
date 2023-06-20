@@ -8,7 +8,7 @@ export function TableContainer(props: PropsWithChildren) {
     <Sheet
       variant="outlined"
       sx={{
-        height: "calc(100dvh - 2rem)",
+        height: "80vh",
         overflow: "auto",
       }}
     >

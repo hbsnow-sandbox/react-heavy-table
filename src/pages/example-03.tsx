@@ -15,12 +15,12 @@ export function Example03() {
   const { LazyComponents } = useLazyIntersection({
     elements,
     chunkSize: 100,
-    rowCount: 3,
+    rowCount: 4,
   });
 
   return (
     <TableContainer>
-      <Table aria-label="requestIdleCallback">
+      <Table aria-label="IntersectionObserver">
         <StickyThead />
         <tbody>{LazyComponents}</tbody>
       </Table>
