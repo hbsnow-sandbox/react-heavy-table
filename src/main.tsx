@@ -10,6 +10,8 @@ import { Example03 } from "./pages/example-03.tsx";
 import { Example04 } from "./pages/example-04.tsx";
 import { Example05 } from "./pages/example-05.tsx";
 
+import "requestidlecallback-polyfill";
+
 const router = createHashRouter([
   {
     path: "/",
